@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2BBAC7215C83D400FCFD46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BBAC6215C83D400FCFD46 /* AppDelegate.m */; };
+		3F2BBAC9215C83D500FCFD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2BBAC8215C83D500FCFD46 /* Assets.xcassets */; };
+		3F2BBACC215C83D500FCFD46 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2BBACA215C83D500FCFD46 /* MainMenu.xib */; };
+		3F2BBACF215C83D500FCFD46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BBACE215C83D500FCFD46 /* main.m */; };
+		3F2BBAD9215C83E700FCFD46 /* WHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BBAD7215C83E700FCFD46 /* WHViewController.m */; };
+		3F2BBADA215C83E700FCFD46 /* WHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2BBAD8215C83E700FCFD46 /* WHViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F2BBAC2215C83D400FCFD46 /* WHReadTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHReadTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2BBAC5215C83D400FCFD46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F2BBAC6215C83D400FCFD46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F2BBAC8215C83D500FCFD46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F2BBACB215C83D500FCFD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3F2BBACD215C83D500FCFD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2BBACE215C83D500FCFD46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F2BBAD0215C83D500FCFD46 /* WHReadTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WHReadTool.entitlements; sourceTree = "<group>"; };
+		3F2BBAD6215C83E700FCFD46 /* WHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHViewController.h; sourceTree = "<group>"; };
+		3F2BBAD7215C83E700FCFD46 /* WHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHViewController.m; sourceTree = "<group>"; };
+		3F2BBAD8215C83E700FCFD46 /* WHViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WHViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F2BBABF215C83D400FCFD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F2BBAB9215C83D400FCFD46 = {
+			isa = PBXGroup;
+			children = (
+				3F2BBAC4215C83D400FCFD46 /* WHReadTool */,
+				3F2BBAC3215C83D400FCFD46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F2BBAC3215C83D400FCFD46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F2BBAC2215C83D400FCFD46 /* WHReadTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F2BBAC4215C83D400FCFD46 /* WHReadTool */ = {
+			isa = PBXGroup;
+			children = (
+				3F2BBAC5215C83D400FCFD46 /* AppDelegate.h */,
+				3F2BBAC6215C83D400FCFD46 /* AppDelegate.m */,
+				3F2BBAC8215C83D500FCFD46 /* Assets.xcassets */,
+				3F2BBACA215C83D500FCFD46 /* MainMenu.xib */,
+				3F2BBACD215C83D500FCFD46 /* Info.plist */,
+				3F2BBACE215C83D500FCFD46 /* main.m */,
+				3F2BBAD0215C83D500FCFD46 /* WHReadTool.entitlements */,
+				3F2BBAD6215C83E700FCFD46 /* WHViewController.h */,
+				3F2BBAD7215C83E700FCFD46 /* WHViewController.m */,
+				3F2BBAD8215C83E700FCFD46 /* WHViewController.xib */,
+			);
+			path = WHReadTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F2BBAC1215C83D400FCFD46 /* WHReadTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2BBAD3215C83D500FCFD46 /* Build configuration list for PBXNativeTarget "WHReadTool" */;
+			buildPhases = (
+				3F2BBABE215C83D400FCFD46 /* Sources */,
+				3F2BBABF215C83D400FCFD46 /* Frameworks */,
+				3F2BBAC0215C83D400FCFD46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHReadTool;
+			productName = WHReadTool;
+			productReference = 3F2BBAC2215C83D400FCFD46 /* WHReadTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F2BBABA215C83D400FCFD46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "静";
+				TargetAttributes = {
+					3F2BBAC1215C83D400FCFD46 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F2BBABD215C83D400FCFD46 /* Build configuration list for PBXProject "WHReadTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F2BBAB9215C83D400FCFD46;
+			productRefGroup = 3F2BBAC3215C83D400FCFD46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F2BBAC1215C83D400FCFD46 /* WHReadTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F2BBAC0215C83D400FCFD46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2BBAC9215C83D500FCFD46 /* Assets.xcassets in Resources */,
+				3F2BBADA215C83E700FCFD46 /* WHViewController.xib in Resources */,
+				3F2BBACC215C83D500FCFD46 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F2BBABE215C83D400FCFD46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2BBAD9215C83E700FCFD46 /* WHViewController.m in Sources */,
+				3F2BBACF215C83D500FCFD46 /* main.m in Sources */,
+				3F2BBAC7215C83D400FCFD46 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F2BBACA215C83D500FCFD46 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2BBACB215C83D500FCFD46 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F2BBAD1215C83D500FCFD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F2BBAD2215C83D500FCFD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3F2BBAD4215C83D500FCFD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WHReadTool/WHReadTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WHReadTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = storyBoardTest.WHReadTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F2BBAD5215C83D500FCFD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WHReadTool/WHReadTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WHReadTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = storyBoardTest.WHReadTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F2BBABD215C83D400FCFD46 /* Build configuration list for PBXProject "WHReadTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2BBAD1215C83D500FCFD46 /* Debug */,
+				3F2BBAD2215C83D500FCFD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2BBAD3215C83D500FCFD46 /* Build configuration list for PBXNativeTarget "WHReadTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2BBAD4215C83D500FCFD46 /* Debug */,
+				3F2BBAD5215C83D500FCFD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F2BBABA215C83D400FCFD46 /* Project object */;
+}
